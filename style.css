@@ -1,0 +1,63 @@
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.header {
+  display: block;
+  align-items: center;
+  text-align: center;
+  background-color: pink;
+  font-family: Sofia;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"] {
+  padding: 34px;
+}
+
+body {
+  text-align: center;
+}
+
+#submit-btn {
+  padding: 12px;
+  border-radius: 9px;
+  background-color: silver;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: teal;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 7px;
+  border-radius: 6px;
+}
+
+.remove-btn {
+  background-color: purple;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 7px;
+  border-radius: 6px;
+  
+}
+
+.recipe-list {
+  white-space: pre-wrap;
+  font-size: large;
+  list-style: none;
+  
+}
+
+li {
+  flex: 1;
+  padding: 1rem;
+  border: 10px solid black;
+}
+

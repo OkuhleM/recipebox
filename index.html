@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <title>Recipe-box</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+
+      <h1 style="font-family: sans-serif;"> Recipe Box <h1>
+
+          <img src="https://colpacpackaging.com/wp-content/uploads/2017/07/multi-food-pots-group.jpg">
+          <h1> What are you cooking?</h1>
+    </div>
+
+    <div class="box">
+      <form id="form"><br>
+        <label>Recipe Name:</label><br>
+        <input type="text" id="recipeName" class="recipeName"><br><br>
+        <label>Ingredients:</label><br>
+        <input type="text" id="ingredients" class="ingredients"><br><br>
+        <label>Directions: </label><br>
+        <input type="text" id="directions" class="directions"><br><br>
+        <button type="submit" id="submit-btn" class="recipe-btn">submit</button>
+      </form>
+    </div>
+
+    <div class="recipe-container">
+      <ul class="recipe-list" id="recipeList">
+
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
